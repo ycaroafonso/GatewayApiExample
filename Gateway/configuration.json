@@ -5,8 +5,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "pedido",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 4000
         }
       ],
       "UpstreamPathTemplate": "/pedido/",
@@ -17,8 +17,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "pedido",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 4000
         }
       ],
       "UpstreamPathTemplate": "/pedido/{everything}",
@@ -29,8 +29,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "catalogo",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/catalogo/",
@@ -41,8 +41,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "catalogo",
-          "Port": 80
+          "Host": "localhost",
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/catalogo/{everything}",

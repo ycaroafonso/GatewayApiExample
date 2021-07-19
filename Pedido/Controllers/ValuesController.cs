@@ -14,7 +14,7 @@ namespace Pedido.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Item 1", "Item 2" };
+            return new string[] { "Pedido 1", "Pedido 2" };
         }
 
         // GET api/values/5
